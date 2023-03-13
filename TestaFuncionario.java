@@ -4,7 +4,9 @@ public class TestaFuncionario {
 
 	public static void main (String[] args){
 		
-		Funcionario nico = new Funcionario();
+		Cliente cliente = new Cliente();
+		
+		Gerente nico = new Gerente();
 		nico.setNome("Nico Steppat");
 		nico.setCpf("12345678910");
 		nico.setSalario(5000);
